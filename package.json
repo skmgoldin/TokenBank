@@ -1,0 +1,22 @@
+{
+  "name": "tokenbank",
+  "version": "0.0.0",
+  "description": "A contract which issues tokens and redeems them for their purchased price",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test",
+    "contracts": "contracts"
+  },
+  "scripts": {
+    "test": "solcheck $npm_package_directories_contracts/* && truffle test"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity"
+  ],
+  "author": "Mike Goldin <mike.goldin@consensys.net>",
+  "license": "ISC",
+  "dependencies": {
+    "solcheck": "^0.1.3"
+  }
+}

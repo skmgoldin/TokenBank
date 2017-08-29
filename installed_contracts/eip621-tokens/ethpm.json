@@ -1,0 +1,26 @@
+{
+  "authors": [
+    "Mike Goldin <mike.goldin@consensys.net>",
+    "Alex Miller <alex.miller@consensys.net>"
+  ],
+  "license": "MIT",
+  "description": "Ethereum EIP621-compliant token contracts",
+  "keywords": [
+    "tokens",
+    "consensys",
+    "eip621"
+  ],
+  "links": {},
+  "sources": [
+    "./contracts/EIP621AbstractToken.sol",
+    "./contracts/EIP621OraclizedToken.sol",
+    "./contracts/EIP621Token.sol",
+    "./contracts/Migrations.sol"
+  ],
+  "dependencies": {
+    "tokens": "ipfs://QmUBrRvJyPxeoMrkYRm1aHN27maB6w6KtuwUNQaSzL4p7H"
+  },
+  "manifest_version": 1,
+  "package_name": "eip621-tokens",
+  "version": "0.0.2"
+}
